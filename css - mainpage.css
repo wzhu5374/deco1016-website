@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+.topbar {
+    display: flex;
+    align-content: flex-start;
+    padding: 25px;
+    background-color: coral;
+}
+#title {
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+}
+.signup {
+    width: 100px;
+    padding: 10px;
+    border: 0px;
+    background-color: #41a765;
+    color: #ffffff;
+    border-radius: 30px;   
+}

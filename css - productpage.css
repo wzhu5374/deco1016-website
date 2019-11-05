@@ -1,0 +1,14 @@
+* {
+    font-family: sans-serif;
+}
+.topbar {
+    display: flex;
+    align-content: flex-start;
+    padding: 25px;
+    background-color: coral;
+}
+#title {
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+}
