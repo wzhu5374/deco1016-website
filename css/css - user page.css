@@ -1,6 +1,12 @@
 * {
     font-family: sans-serif;
 }
+.topbar {
+    display: flex;
+    align-content: flex-start;
+    padding: 25px;
+    background-color: coral;
+}
 .mainpage {
     width: 200px;
     padding: 15px;
