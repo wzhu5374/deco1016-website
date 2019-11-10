@@ -19,3 +19,6 @@
     background-color: coral;
     border-radius: 30px;   
 }
+#background-image {
+    background-image: url('img/keycaps-1.png');
+}
