@@ -7,12 +7,24 @@
     padding: 25px;
     background-color: coral;
 }
+#title {
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+}
 .signup {
-    width: 200px;
+    width: 300px;
     padding: 15px;
     margin-left: auto;
     border: 0px;
-    background-color: #41a765;
-    color: #ffffff;
+    background-color: coral;
+    border-radius: 30px;   
+}
+.buttons {
+    width: 100px;
+    padding: 15px;
+    margin-left: auto;
+    border: 0px;
+    background-color: coral;
     border-radius: 30px;   
 }
