@@ -2,9 +2,11 @@
     font-family: sans-serif;
 }
 .topbar {
+    position: sticky;
+    top: 0px;
     display: flex;
     align-content: flex-start;
-    padding: 25px;
+    padding: 20px;
     background-color: coral;
 }
 #title {
@@ -19,4 +21,16 @@
     background-color: coral;
     color: black;
     border-radius: 30px;   
+}
+.blackground-image {
+    background-image: url("keycaps-1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+main {
+    width: 60%;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: cornflowerblue;
 }
