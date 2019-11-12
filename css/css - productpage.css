@@ -2,12 +2,13 @@
     font-family: sans-serif;
 }
 .topbar {
+    top: 0;
     position: sticky;
-    top: 0px;
     display: flex;
     align-content: flex-start;
-    padding: 20px;
+    padding: 15px;
     background-color: coral;
+    z-index: 1000;
 }
 #title {
     float: left;
@@ -22,15 +23,28 @@
     color: black;
     border-radius: 30px;   
 }
-.blackground-image {
+.box {
+    padding-top: 110px;
+    background-position-y: 100px;
+    position: relative;
+    background: white;
+    width: 80%;
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.main-content {
     background-image: url("keycaps-1.png");
     background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
+    height: 1000px;
 }
 main {
     width: 60%;
     max-width: 1300px;
     margin: 0px auto;
     padding: 20px;
-    background-color: cornflowerblue;
+    background-color: skyblue;
 }
