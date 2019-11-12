@@ -43,8 +43,6 @@
     height: 1000px;
 }
 main {
-    width: 60%;
-    max-width: 1300px;
     margin: 0px auto;
     padding: 20px;
     background-color: skyblue;
