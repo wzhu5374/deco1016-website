@@ -35,6 +35,7 @@
     margin-bottom: 100px;
 }
 .main-content {
+    background-position: top;
     background-image: url("keycaps-1.png");
     background-repeat: no-repeat;
     background-size: 100%;

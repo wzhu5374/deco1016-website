@@ -2,15 +2,25 @@
     font-family: sans-serif;
 }
 .topbar {
-    display: flex;
-    align-content: flex-start;
-    padding: 25px;
-    background-color: coral;
+  top: 0;
+  position: sticky;
+  display: flex;
+  align-content: flex-start;
+  padding: 15px;
+  background-color: coral;
+  z-index: 1000;
 }
 #title {
     float: left;
     font-size: 50px;
     font-weight: bold;
+}
+.title-button {
+  width: 300px;
+  padding: 10px;
+  border: 0px;
+  background-color: coral;
+  border-radius: 30px;  
 }
 .title-text {
     margin: 50px;
